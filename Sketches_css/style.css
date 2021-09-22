@@ -1,0 +1,23 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+    width: 2rem;
+}
+
+header{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   
+   font-size: 1rem;
+   background-color: rgb(189, 27, 27);
+}
+
+header img{
+    width: 2rem;
+    height: 2rem;
+}
+
