@@ -45,3 +45,8 @@ header img{
 .margem_inf{
     border-bottom-color: solid grey 0.1rem;
 }
+
+.coluna {
+    display: flex;
+    flex-direction: column;
+}
