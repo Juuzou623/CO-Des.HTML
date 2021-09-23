@@ -7,7 +7,7 @@ body main{
     width: 2rem;
 }
 
-header{
+header.cabecario{
    position: fixed;
    left: 0%;
    top: 0%;
