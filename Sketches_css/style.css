@@ -4,7 +4,6 @@ body main {
     padding-left: 2rem;
     padding-right: 2rem;
     align-items: center;
-    width: 2rem;
 }
 
 header.cabecario{
@@ -15,7 +14,7 @@ header.cabecario{
    height: 3rem;
    background-color: rgb(189, 27, 27);
    align-items: center;
-   
+   box-shadow: 0 3px 8px rgba(0,0,0,.5);
 }
 
 header ul{
