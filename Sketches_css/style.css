@@ -7,7 +7,7 @@ body main {
     width: 2rem;
 }
 
-header{
+.cabeçalho {
    position: fixed;
    left: 0%;
    top: 0%;
@@ -50,6 +50,9 @@ header img {
 
 .popup{
     position: fixed;
+    top: 5rem;
+    left: 20rem;
+    bottom: 3rem;
     width: 50%;
     padding: 5px;
     background-color: white;
