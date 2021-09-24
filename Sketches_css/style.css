@@ -1,3 +1,8 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+
 body main {
     display: flex;
     flex-direction: column;
@@ -48,11 +53,11 @@ header img {
 
 .popup{
     position: fixed;
-    top: 5rem;
-    left: 20rem;
-    bottom: 3rem;
+    margin-top: 0.20rem;
+    margin-left: 25%;
+    margin-right: 25%;
     width: 50%;
-    height: 17rem;
+    height: 20%;
     padding: 5px;
     background-color: transparent;
     text-align: center;
