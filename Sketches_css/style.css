@@ -115,14 +115,26 @@ img#taf{
 .coluna {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: 25%;
+    height: 50%;
 }
 .linha{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
 ul.retirar{
     list-style: none;
+}
+
+div.coluna div.linha p{
+    font-size: 2rem;
+}
+div.linha img{
+    width: 2rem;
+    height: 2rem;
 }
