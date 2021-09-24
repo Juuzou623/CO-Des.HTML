@@ -105,7 +105,7 @@ img#taf{
 
 .margem_inf{
     width: 100%;
-    margin-bottom: 2rem;
+    padding-bottom: 1rem;
     border-bottom: solid grey 0.1rem;
     display: flex;
     flex-direction: column;
@@ -121,4 +121,8 @@ img#taf{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+
+ul{
+    list-style: none;
 }
