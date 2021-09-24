@@ -14,7 +14,7 @@ header.cabecario{
    height: 3rem;
    background-color: rgb(189, 27, 27);
    align-items: center;
-   box-shadow: 0 3px 8px rgba(0,0,0,.5);
+   box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,.5);
 }
 
 header ul{
@@ -29,7 +29,6 @@ header ul{
 
 h1#title{
     font-size: 1.5rem;
-    
 }
 
 header img {
@@ -53,11 +52,23 @@ header img {
     left: 20rem;
     bottom: 3rem;
     width: 50%;
+    height: 17rem;
     padding: 5px;
-    background-color: white;
+    background-color: transparent;
     text-align: center;
+    align-items: center;
 }
 
+header#popup_header{
+    height: 3rem;
+}
+
+.popup2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+}
 
 .voltar{
     width: 2rem;
@@ -74,9 +85,9 @@ header img {
 
 button.botao_taf{
     position: fixed;
-    top: 1px;
-    left: 1px;
-    z-index: 20;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
     width: 3rem;
     height: 3rem;
     border-radius: 1.5rem;
@@ -98,4 +109,10 @@ button.botao_taf:active{
 .coluna {
     display: flex;
     flex-direction: column;
+}
+.linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
