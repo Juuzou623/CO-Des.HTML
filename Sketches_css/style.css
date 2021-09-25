@@ -61,7 +61,6 @@ header img {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    z-index: 2;
 }
 
 .fake_header{
