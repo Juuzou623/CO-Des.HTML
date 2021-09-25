@@ -163,3 +163,10 @@ div.linha img{
         width: 70%;
     }
 }*/
+button.botao_leg{
+    width: 15%;
+    height: 15%;
+    border-color: black;
+    cursor: pointer;
+    font-size: 200%;
+}
