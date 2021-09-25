@@ -17,7 +17,7 @@ header.cabecario{
    top: 0%;
    width: 100%;
    height: 3rem;
-   background-color: rgb(189, 27, 27);
+   background-color: rgb(0, 208, 255);
    align-items: center;
    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,.5);
 }
@@ -52,28 +52,29 @@ header img {
 }
 
 .popup{
-    position: fixed;
-    margin-top: 0.20rem;
-    margin-left: 25%;
-    margin-right: 25%;
+    top: 10%;
+    left: 25%;
+    right: 25%;
     width: 50%;
-    height: 20%;
-    padding: 5px;
-    background-color: transparent;
-    text-align: center;
-    align-items: center;
-}
-
-header#popup_header{
-    height: 3rem;
-}
-
-.popup2{
     display: flex;
+    position: fixed;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
     background-color: white;
+    z-index: 2;
 }
+
+.fake_header{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+
 
 .voltar{
     width: 2rem;
@@ -90,9 +91,9 @@ button.botao_taf{
     bottom: 3rem;
     right: 3rem;
     z-index: 1;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 1.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 2.25rem;
     border-color: transparent;
     background-color: orange;
     /* Funções aleatórias que se der problema apaguem*/
@@ -100,10 +101,13 @@ button.botao_taf{
     cursor: pointer;
 }
 img#taf{
+    width: 3rem;
+    height: 3rem;
+}
+img#voltar{
     width: 2rem;
     height: 2rem;
 }
-
 .margem_inf{
     width: 100%;
     padding-bottom: 1rem;
@@ -130,6 +134,15 @@ img#taf{
 
 ul.retirar{
     list-style: none;
+    font-size: 30%;
+}
+.fake_main{
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.alinhamento{
+    padding-left: 1rem;
 }
 
 div.coluna div.linha p{
@@ -139,3 +152,14 @@ div.linha img{
     width: 2rem;
     height: 2rem;
 }
+
+/*@media (max-width: 500px) {
+    div.popup p{
+        font-size: 1rem;
+    }
+    .popup{
+        left: 15%;
+        right: 15%;
+        width: 70%;
+    }
+}*/
