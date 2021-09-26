@@ -201,3 +201,13 @@ img#perfil{
     width: 2rem;
     height: 2rem;
 }
+
+img.first{
+    padding: 1rem;
+    background-color: coral;
+}
+
+img.second{
+    padding: 1rem;
+    background-color:crimson;
+}
