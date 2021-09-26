@@ -41,6 +41,11 @@ header img {
     height: 2rem;
 }
 
+#tri_vaga{
+    width: 2rem;
+    height: 2rem;
+}
+
 .atras {
     position: fixed;
     top: 0;
@@ -85,7 +90,7 @@ header img {
     font-weight: bold;
 }
 
-a.botao_taf{
+.botao_taf{
     position: fixed;
     bottom: 3rem;
     right: 3rem;
@@ -231,4 +236,13 @@ img#hist{
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+img.first{
+    padding: 1rem;
+    background-color: coral;
+}
+
+img.second{
+    padding: 1rem;
+    background-color:crimson;
 }
