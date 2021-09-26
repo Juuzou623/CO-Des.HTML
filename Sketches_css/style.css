@@ -41,6 +41,11 @@ header img {
     height: 2rem;
 }
 
+#tri_vaga{
+    width: 2rem;
+    height: 2rem;
+}
+
 .atras {
     position: fixed;
     top: 0;
