@@ -90,7 +90,7 @@ header img {
     font-weight: bold;
 }
 
-button.botao_taf{
+.botao_taf{
     position: fixed;
     bottom: 3rem;
     right: 3rem;
@@ -105,6 +105,8 @@ button.botao_taf{
     cursor: pointer;
 }
 img#taf{
+    margin-left: 0.75rem;
+    margin-top: 0.75rem;
     width: 3rem;
     height: 3rem;
 }
