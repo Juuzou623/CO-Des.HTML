@@ -168,6 +168,12 @@ a.botao_leg{
     padding-right: 0.5rem;
 }
 
+a.botao_config{
+    border: solid black;
+    margin: 00.5rem;
+    padding: 0.25rem;
+    width: 23%;
+}
 h1#vaga{
     border: solid black 0.1rem;
     padding: 0.5rem;
