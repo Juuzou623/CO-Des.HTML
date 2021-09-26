@@ -246,3 +246,17 @@ img.second{
     padding: 1rem;
     background-color:crimson;
 }
+
+main#main_analise_hist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: solid black 0.1rem;
+    margin-top: 30%;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgb(209, 234, 255);
+}
