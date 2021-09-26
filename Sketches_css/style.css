@@ -169,3 +169,30 @@ button.botao_leg{
     cursor: pointer;
     font-size: 200%;
 }
+h1#vaga{
+    border: solid black 0.1rem;
+    padding: 0.5rem;
+    margin-top: 10%;
+    font-size: 2rem;
+}
+
+ul#align_cli{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding-left: 0%;
+}
+
+li#align_cli_img{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+img#perfil{
+    margin-right: 1rem;
+    width: 2rem;
+    height: 2rem;
+}
