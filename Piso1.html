@@ -16,13 +16,14 @@
         </ul>
     </header>
     <main>
-    <h2><span>
+
+    <h1 class="linha" id="piso_1">
         <a href="index.html">
-            <img src="Imagens/back.png" alt="Botão de Voltar" height=25 width=25>
+            <img src="Imagens/back.png" alt='Botão de voltar' id="voltar">
         </a>
-        <b>PISO 1</b>
-    </span></h2>
-    </main>
+        Piso 1
+        <p> </p>
+    </h1>
     <div class="coluna">
         <div class="linha">
             <p></p>
@@ -67,16 +68,28 @@
             <img src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
             <img src="Imagens/Circulo-vazio.png" alt="Vaga livre">
         </div>
-        <div class="linha">
-            <button class="botao_leg">
+        
+        <ul class="linha" id="piso1">
+            <li>
+            <a class="botao_leg">
                 Legenda
-            </button>
-        </div>
-    </div>
-    <button class="botao_taf">
-        <a href="tarefas.html">
-            <img src="Imagens/clipboard.png" alt='tarefas' id='taf'>
+            </a>
+            </li>
+            <li class="linha">
+                <a><img src="Imagens/Seta1.png" alt="Ir para a área 1" id="setas"></a>
+                <p>Área 2</p>
+                <a><img src="Imagens/Seta2.png" alt="Ir para a área 3" id="setas"></a>
+            </li>
+        </ul>
+        <a class='linha2' id="botao_hist">
+            <img src="Imagens/Graphic.png" alt="Gráfico" id="hist">
+            <h3>Histórico</h3>
         </a>
-    </button>
+    </div>
+
+    <a class="botao_taf" href="tarefas.html">
+        <img src="Imagens/clipboard.png" alt='tarefas' id='taf'>
+    </a>
+</main>
 </body>
 </html>

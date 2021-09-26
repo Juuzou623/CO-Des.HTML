@@ -85,7 +85,7 @@ header img {
     font-weight: bold;
 }
 
-button.botao_taf{
+a.botao_taf{
     position: fixed;
     bottom: 3rem;
     right: 3rem;
@@ -100,6 +100,8 @@ button.botao_taf{
     cursor: pointer;
 }
 img#taf{
+    margin-left: 0.75rem;
+    margin-top: 0.75rem;
     width: 3rem;
     height: 3rem;
 }
@@ -120,9 +122,8 @@ img#voltar{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 50%;
-    margin-left: 25%;
-    height: 50%;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 .linha{
     display: flex;
@@ -162,13 +163,12 @@ div.linha img{
         width: 70%;
     }
 }*/
-button.botao_leg{
-    width: 15%;
-    height: 15%;
-    border-color: black;
-    cursor: pointer;
-    font-size: 200%;
+a.botao_leg{
+    border: solid black;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
+
 h1#vaga{
     border: solid black 0.1rem;
     padding: 0.5rem;
@@ -195,4 +195,40 @@ img#perfil{
     margin-right: 1rem;
     width: 2rem;
     height: 2rem;
+}
+
+h1#piso_1{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+img#setas{
+    width: 1rem;
+    height: 1rem;
+}
+
+ul#piso1{
+    list-style: none;
+    padding-left: 0%;
+}
+
+a#botao_hist{
+    position: relative;
+    align-items: center;
+    border: solid black 0.1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+img#hist{
+    width: 2rem;
+    right: 2rem;
+    margin-right: 01rem;
+}
+
+.linha2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
