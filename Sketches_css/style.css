@@ -272,5 +272,40 @@ image.leg{
 }
 
 .voltar_hist{
-    margin-right: 20rem;
+    margin-right: 15rem;
+}
+
+body.body_menu{
+    margin-top: 0%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    width: 75%;
+    border-right: solid black 0.1rem;
+}
+
+h1#title_menu{
+    font-size: 1rem;
+}
+img#icone_menu{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+ul#alinha_menu{
+    padding-left: 0rem;
+    padding-right: 1rem;
+    margin-top: 1rem;
+}
+
+header#header_menu{
+    padding-bottom: 0.5rem;
+    border-bottom: solid black 0.1rem;
+}
+
+ul#retirar_menu{
+    list-style: none;
+    padding-left: 0rem;
+    font-size: 2rem;
 }
