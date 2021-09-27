@@ -1,0 +1,8 @@
+Como previsto no enunciado do trabalho, as principais mudanças foram as adições de classes e id
+nos elementos. Porém, como nosso conhecimento de HTML evoluiu desde a última entrega, precisamos
+alterar partes da estrutura do HTML para aperfeiçoar o código.
+
+Primeiramente, transformamos os arquivos Tarefas.html, detalhes_vaga.html, detalhes_cliente.html 
+em popups. Na entrega anterior, eram apenas páginas normais, o que estava desalinhado com os mode-
+los do CRAP. Então, na verdade, a alteração foi uma correção.
+
