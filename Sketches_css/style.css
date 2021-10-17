@@ -86,7 +86,10 @@ header img {
     font-size: 5rem;
     font-weight: bold;
 }
-
+.piso_inic a{
+    text-decoration:none;
+    color: black;
+}
 .botao_taf{
     position: fixed;
     bottom: 3rem;
