@@ -13,3 +13,4 @@ e/ou posicionamentos, afim de manter a coerencia entre os elementos e os espaço
 Outras mudanças a serem citadas foram:
     - Mudamos o espaçamento entre as representações de vagas na página do piso 1
     - Nós mudamos as cores de alguns logos para combinar com a cor dos textos
+    - Retiramos a função "Editar Estacionamento" da página menu, por entender que ela estava sendo repetitiva com a função editar dentro da página configurações
