@@ -70,7 +70,7 @@ header img {
     flex-direction: column;
     align-items: center;
     background-color: white;
-    background:rgba(133, 192, 242, 0.54);
+    background:rgb(255, 255, 255);
     visibility:hidden;
 }
 
