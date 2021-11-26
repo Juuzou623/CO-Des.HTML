@@ -70,6 +70,8 @@ header img {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    background:rgba(133, 192, 242, 0.54);
+    visibility:hidden;
 }
 
 .fake_header{
@@ -341,3 +343,4 @@ div.coluna_piso1 div.linha{
 #dest{
     font-size: 1rem;
 }
+
