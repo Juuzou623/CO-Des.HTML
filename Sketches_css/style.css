@@ -81,9 +81,12 @@ header img {
     height: 3rem;
     font-size: 1.5rem;
 }
-
+.popup_vaga_oc{
+    height: 3rem;
+    width: 3rem;
+}
 .piso_inic{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .piso_inic a{
