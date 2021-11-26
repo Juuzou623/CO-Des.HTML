@@ -70,6 +70,8 @@ header img {
     flex-direction: column;
     align-items: center;
     background-color: white;
+    background:rgb(255, 255, 255);
+    visibility:hidden;
 }
 
 .fake_header{
@@ -81,9 +83,13 @@ header img {
     height: 3rem;
     font-size: 1.5rem;
 }
-
+.popup_vaga_oc{
+    height: 3rem;
+    width: 3rem;
+    background-color: #3859E2;
+}
 .piso_inic{
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 .piso_inic a{
@@ -341,3 +347,4 @@ div.coluna_piso1 div.linha{
 #dest{
     font-size: 1rem;
 }
+
