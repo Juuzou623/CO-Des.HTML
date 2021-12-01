@@ -60,7 +60,7 @@ header img {
     opacity: 0.5;
 }
 
-.popup{
+.popup_tarefa{
     top: 10%;
     left: 25%;
     right: 25%;
@@ -72,6 +72,19 @@ header img {
     background-color: white;
     background:rgb(255, 255, 255);
     visibility:hidden;
+}
+
+.popup{
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background:rgb(255, 255, 255)
 }
 
 .fake_header{
