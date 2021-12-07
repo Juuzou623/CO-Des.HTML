@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
         tarefas=document.querySelector('.popup_tarefa');
         imageMode= document.querySelector('.botao_taf');
-        pagina_anterior= document.querySelector('body')
+        pagina_anterior= document.querySelector('main')
 
         visivel = true
 
@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function () {
             if (visivel==false){
                 tarefas.style.visibility = "visible"
                 visivel=true
+                pagina_anterior.style.background = "rgba(0,0,0,0.5)"
             }
             else{
                 tarefas.style.visibility = "hidden"
