@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    resgistrar=document.querySelector('.popup_registro');
+    registrar=document.querySelector('.popup_registro');
     imageMode_R= document.querySelector('.Vaga_livre');
     const body = document.body;
 
@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
             registrar.style.visibility = "visible"
             body.style.background = "rgba(0,0,0,0.7)";
             regis_visivel=true
-            pagina_anterior.style.background = "rgba(0,0,0,0.5)"
+            pagina_anterior.style.background = "rgba(0,0,0,0.5)";
         }
         else{
             registrar.style.visibility = "hidden"
