@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 tarefas.style.visibility = "visible"
                 body.style.background = "rgba(0,0,0,0.7)";
                 visivel=true
+                pagina_anterior.style.background = "rgba(0,0,0,0.5)"
             }
             else{
                 tarefas.style.visibility = "hidden"
