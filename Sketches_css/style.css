@@ -132,6 +132,7 @@ img#taf{
 img#voltar{
     width: 2rem;
     height: 2rem;
+    z-index: -1;
 }
 .margem_inf{
     width: 100%;
@@ -348,7 +349,7 @@ ul#alinha_menu{
     justify-content:space-around;
     align-items: center;
     margin-bottom: 0rem;
-    margin-top: 3%;
+    margin-top: 7px;
 
 }
 
@@ -411,6 +412,7 @@ div.coluna_piso1 div.linha{
 .botao_menu_fechar{
     background: rgba(0,0,0,0);
     border: 0rem;
+}
 .popup_registro{
     top: 10%;
     left: 25%;
