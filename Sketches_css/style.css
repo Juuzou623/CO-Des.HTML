@@ -132,6 +132,7 @@ img#taf{
 img#voltar{
     width: 2rem;
     height: 2rem;
+    z-index: -1;
 }
 .margem_inf{
     width: 100%;
@@ -304,16 +305,19 @@ image.leg{
     margin-right: 13rem;
 }
 
-body.body_menu{
-    margin-left: 0rem;
-    margin-top: 0%;
+.body_menu{
+    position: fixed;
+    left: 0rem;
+    top: 0%;
     height: 100%;
+    width: 75%;
     display: flex;
     flex-direction: column;
     justify-content: left;
     align-items: center;
-    width: 90%;
-    border-right: solid black 0.1rem;
+    box-shadow: 0 0.2rem 0.4rem rgba(0,0,0,.5);
+    background-color: white;
+    z-index: 11;
 }
 
 .main_menu{
@@ -321,24 +325,39 @@ body.body_menu{
 }
 
 h1#title_menu{
-    font-size: 0.9rem;
+    font-size: 0.6rem;
     color: white;
     margin-left: 0.75rem;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
 }
-img#icone_menu{
-    width: 2.5rem;
-    height: 2.5rem;
+.botao_menu_abrir{
+    background: rgba(0,0,0,0);
+    border: 0rem;
+}
+#icone_menu{
+    width: 2rem;
+    height: 2rem;
+    padding-top: 0rem;
 }
 ul#alinha_menu{
     padding-left: 0rem;
     padding-right: 1rem;
-    margin-top: 1rem;
+    margin-top: 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-top: 7px;
+
 }
 
-header#header_menu{
-    padding-bottom: 0.5rem;
+#header_menu{
     background-color: #3859E2;
     width: 100%;
+    height: 3rem;
+
 }
 
 ul#retirar_menu{
@@ -363,6 +382,38 @@ div.coluna_piso1 div.linha{
 #dest{
     font-size: 1rem;
 }
+
+#anim_abrir{
+    animation-name: abrir_menu;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+}
+@keyframes abrir_menu {
+    from {transform: rotate(0deg) scale(1) skew(0deg) translate(-100%);}
+    to {transform: rotate(0deg) scale(1) skew(0deg) translate(0%);}
+  }
+
+#anim_fechar{
+    animation-name: fechar_menu;
+    animation-duration: 2s;  
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+@keyframes fechar_menu {
+    from {transform: rotate(0deg) scale(1) skew(0deg) translate(0%);}
+    to {transform: rotate(0deg) scale(1) skew(0deg) translate(-100%);}
+  }
+
+#menu{
+    left: -100%;
+}
+.botao_menu_fechar{
+    background: rgba(0,0,0,0);
+    border: 0rem;
+}
+
 .popup_registro{
     top: 10%;
     left: 25%;
