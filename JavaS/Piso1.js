@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     registrar=document.querySelector('.popup_registro');
-    imageMode_R= document.querySelector('.Vaga_livre');
+    imageMode_R= document.querySelector('.Vaga');
     const body = document.body;
 
     regis_visivel = true
