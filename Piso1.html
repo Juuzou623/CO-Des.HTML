@@ -46,39 +46,39 @@
         </div>
         <div class="linha">
             <p>1</p>
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class="Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
-            <img class = "Vaga agendada" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class= "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
         </div>
         <div class="linha">
             <p>2</p>
-            <img class = "Vaga agendada" src="Imagens/triangle.png" alt="Vaga agendada">
-            <img class = "Vaga agendada" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga" src="Imagens/triangle.png" alt="Vaga agendada">
+            <img class = "Vaga" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
         </div>
 
         <div class="linha">
             <p>3</p>
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class = "Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class = "Vaga agendada" src="Imagens/triangle.png" alt="Vaga agendada">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga" src="Imagens/triangle.png" alt="Vaga agendada">
         </div>
         <div class="linha">
             <p>4</p>
-            <img class = "Vaga agendada" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
-            <img class = "Vaga agendada" src="Imagens/triangle.png" alt="Vaga agendada">
-            <img class = "Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
-            <img class = "Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
+            <img class = "Vaga" src="Imagens/triangle.png" alt="Vaga agendada">
+            <img class = "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
         </div>
         <div class="linha">
             <p>5</p>
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
-            <img class = "Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
-            <img class = "Vaga ocupada" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
-            <img class = "Vaga livre" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+            <img class = "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+            <img class = "Vaga_vazia" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
         </div>
         
         <ul class="linha">
@@ -104,6 +104,8 @@
     </button>
 </main>
 </body>
+
+<!--POPUPS DE REGISTRO E TAREFAS-->
 <div class="popup_tarefa">
     <div class="fake_header">
         <img src="Imagens/clipboard.png" alt='tarefas' id="taf">
@@ -113,7 +115,7 @@
         <ul class="alinhamento">
             <!--Tarefas a fazer pelo usuário-->
             <li>
-                <p>Liberar passagem para saída do carro na 3B </p>
+                <p>Retirar carro da 3B e colocar próximo da saída </p>
             </li>
             <li>
                 <p>Reservada vaga para carro que chegará às 13h </p>
@@ -126,5 +128,54 @@
             <img src="Imagens/back.png" alt='Botão de voltar' id="voltar">
         </a>
     </div>
+</div>
+
+<div class="popup_registro">
+    <div class="fake_header">
+        <b>Registrar <br> veículo</b>
+    </div>
+    <div class="fake_main">
+        <ul class="alinhamento">
+        <!--Tarefas a fazer pelo usuário-->
+        <li>
+            <input type="text" placeholder="Nome do motorista">
+        </li>
+        <li>
+            <input type="text" placeholder="Placa do carro">
+        </li>
+        <li>
+            <input type="text" placeholder="Modelo do carro">
+        </li>
+        <li>
+            <input type="text" placeholder="Piso">
+        </li>
+        <li>
+            <input type="text" placeholder="Sessão">
+        </li>
+        <li>
+            <input type="text" placeholder="Nome da vaga">
+        </li>
+        <li>
+            <button>Enviar todos os dados</button>
+        </li>
+    </ul>
+    <a href="Piso1.html">
+        <img src="Imagens/back.png" alt='Botão de voltar' id="voltar">
+    </a>
+    </div>
+</div>
+
+<div class="popup_registro">
+    <div class="fake_header">
+        <b>Retirada de Carros</b>
+    </div>
+    <ul class="alinhamento">
+        <li>
+            <p>Tem certeza que gostaria de retirar o veículo da vaga 3B?</p>
+        </li>
+        <li>
+            <button>Retirar veículo</button>
+        </li>        
+    </ul>
 </div>
 </html>

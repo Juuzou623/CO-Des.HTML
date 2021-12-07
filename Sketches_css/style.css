@@ -168,7 +168,10 @@ ul.retirar{
     margin-right: 1rem;
 }
 .alinhamento{
-    padding-left: 1rem;
+    list-style: none;
+    padding-left: 0rem;
+    font-size: 1.5rem;
+    margin: 0.25rem;
 }
 
 div.coluna div.linha p{
@@ -408,4 +411,16 @@ div.coluna_piso1 div.linha{
 .botao_menu_fechar{
     background: rgba(0,0,0,0);
     border: 0rem;
+.popup_registro{
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background:rgb(255, 255, 255);
+    visibility:hidden;
 }
