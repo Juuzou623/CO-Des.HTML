@@ -360,4 +360,16 @@ div.coluna_piso1 div.linha{
 #dest{
     font-size: 1rem;
 }
-
+.popup_registro{
+    top: 10%;
+    left: 25%;
+    right: 25%;
+    width: 50%;
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    background:rgb(255, 255, 255);
+    visibility:hidden;
+}
