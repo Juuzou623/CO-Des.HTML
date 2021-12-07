@@ -13,16 +13,17 @@
     <script src="JavaS/Piso1.js"></script> 
     <script src="JavaS/popups.js"></script>  
     <script src="JavaS/index.js"></script> 
+    <script src="JavaS/menu.js"></script>    s
 </head>
 <body>
     <!--Cabeçalho-->
     <header class="cabecario">
         <ul class="retirar">
-            <li><a href="menu.html"><img src="Imagens/menu.png" alt="menu"></a></li>
-            <li><h1 id="title">Estacionado</h1></li>
-            <li><img src="Imagens/Logo.png" alt="Logo"></li>
+          <li><button" class="botao_menu_abrir"><img src="Imagens/menu.png" alt="menu"></button></li>
+          <li><h1 id="title">Estacionado</h1></li>
+          <li><img src="Imagens/Logo.png" alt="Logo"></li>
         </ul>
-    </header>
+      </header>
     <main>
         <!--Botão para voltar e nome do piso respectivo-->
         <ul class="linha2" id="piso1">
@@ -103,6 +104,29 @@
         <img src="Imagens/clipboard.png" alt='tarefas' id='taf'>
     </button>
 </main>
+<div class="body_menu" id="menu">
+    <!--Cabeçalho-->
+    <div id="header_menu">
+        <ul class="retirar" id="alinha_menu">
+          <li><h1 id="title_menu">Estacionamento MultiPark Insper<br>End: Rua Quatá, 200, Vila Olímpia, SP</h1></li>
+          <li><button class="botao_menu_fechar"><img src="Imagens/menu.png" alt="menu" id="icone_menu"></buttons></li>
+        </ul>
+    </div>
+
+    <div class="main_menu">
+        <ul id="retirar_menu">
+            <li>
+            Editar Pisos 
+            </li>
+            <li>
+            Adicionar Pisos 
+            </li>
+            <li>
+            <a href="configuracoes.html">
+                Configurações </a></li>
+        </ul>
+    </div>
+  </div>
 </body>
 
 <!--POPUPS DE REGISTRO E TAREFAS-->
