@@ -123,7 +123,7 @@ header img {
     box-shadow: 0 3px 8px rgba(0,0,0,.5);
     cursor: pointer;
 }
-img#taf{
+img.taf{
     margin-left: auto;
     margin-top: auto;
     width: 3rem;
