@@ -3,19 +3,21 @@ document.addEventListener('DOMContentLoaded', function () {
         imageMode= document.querySelector('.botao_taf');
         const body = document.body;
 
-        visivel = true
+        visivel = false
 
         imageMode.addEventListener('click', function(event) {
             if (visivel==false){
                 tarefas.style.visibility = "visible"
-                body.style.background = "rgba(0,0,0,0.7)";
                 visivel=true
-                pagina_anterior.style.background = "rgba(0,0,0,0.5)"
+                var escuridao = document.createElement("div");
+                escuridao.id = "escuridao"
+                body.appendChild(escuridao);
             }
             else{
                 tarefas.style.visibility = "hidden"
-                body.style.background = "rgba(255,255,255,1)";
                 visivel=false
+                body.removeChild(escuridao);
+
             }
             
         })
