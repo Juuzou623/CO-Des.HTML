@@ -453,9 +453,8 @@ div.coluna_piso1 div.linha{
 
 .popup_legenda{
     top: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 12.5%;
+    width: 75%;
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -463,6 +462,7 @@ div.coluna_piso1 div.linha{
     background-color: white;
     background:rgb(255, 255, 255);
     visibility:hidden;
+    z-index: 10;
 }
 #escuridao{
     position: fixed;
