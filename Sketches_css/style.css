@@ -62,9 +62,8 @@ header img {
 
 .popup_tarefa{
     top: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 12.5%;
+    width: 75%;
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -76,9 +75,8 @@ header img {
 
 .popup{
     top: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 12.5%;
+    width: 75%;
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -399,7 +397,7 @@ div.coluna_piso1 div.linha{
 @keyframes abrir_menu {
     from {transform: rotate(0deg) scale(1) skew(0deg) translate(-100%);}
     to {transform: rotate(0deg) scale(1) skew(0deg) translate(0%);}
-  }
+}
 
 #anim_fechar{
     animation-name: fechar_menu;
@@ -422,9 +420,8 @@ div.coluna_piso1 div.linha{
 
 .popup_registro{
     top: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 12.5%;
+    width: 75%;
     display: flex;
     position: fixed;
     flex-direction: column;
@@ -436,9 +433,8 @@ div.coluna_piso1 div.linha{
 
 .popup_retirada{
     top: 10%;
-    left: 25%;
-    right: 25%;
-    width: 50%;
+    left: 12.5%;
+    width: 75%;
     display: flex;
     position: fixed;
     flex-direction: column;
