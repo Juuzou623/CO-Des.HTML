@@ -46,6 +46,14 @@ document.addEventListener('DOMContentLoaded', function () {
                 ret_visivel=false
             }
         })
+
+
+
+
+        registrar=document.querySelector('.botao_retirar');
+        registrar.addEventListener('click', function(event) {
+            imageMode_R_t.src = "Imagens/Circulo-vazio.png"
+        })
     });
 
         legendaa = document.querySelector('.popup_legenda');
