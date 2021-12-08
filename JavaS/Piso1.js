@@ -46,24 +46,27 @@ document.addEventListener('DOMContentLoaded', function () {
                 ret_visivel=false
             }
         })
-        });
+    });
 
         legendaa = document.querySelector('.popup_legenda');
         imageMode_leg=document.querySelector('.botao_leg');
-        leg_visivel = true
+        leg_visivel = false
+
         imageMode_leg.addEventListener('click', function(event) {
             if (leg_visivel==false){
                 legendaa.style.visibility = "visible"
-                body.style.background = "rgba(0,0,0,0.7)";
                 leg_visivel=true
-                pagina_anterior.style.background = "rgba(0,0,0,0.5)";
+                var escuridao = document.createElement("div");
+                escuridao.id = "escuridao"
+                body.appendChild(escuridao);
             }
 
             else{
                 legendaa.style.visibility = "hidden"
-                body.style.background = "rgba(255,255,255,1)";
+                body.removeChild(escuridao);
                 leg_visivel=false
             }
-        });  
+    
+        }); 
 
-    });
+});
