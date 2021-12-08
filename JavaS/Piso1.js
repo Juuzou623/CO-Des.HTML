@@ -2,8 +2,8 @@ document.addEventListener('DOMContentLoaded', function () {
     /*COLOCAR*/
     registrar=document.querySelector('.popup_registro');
     imageMode_Rs_vazias= document.querySelectorAll('.Vaga_vazia');
-    enviar=document.querySelector('#registrando')
-    body = document.querySelector('body')
+    enviar=document.querySelector('#registrando');
+    body = document.querySelector('body');
     voltar_reg = document.querySelector('.voltar_registro');
 
     regis_visivel = false
@@ -29,6 +29,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 body.removeChild(escuridao);
                 regis_visivel=false
             })
+            enviar.addEventListener('click', function(event) {
+                imageMode_R_v.src="Imagens/circulo-preto-2.png"
+            })
         });
     });
 
@@ -36,6 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
     retirada = document.querySelector('.popup_retirada');
     imageMode_Rets_triangulo = document.querySelectorAll('.Vaga_triangulo');
     voltar_ret = document.querySelector('.voltar_retirada');
+    tirar=document.querySelector('#retirando')
     
     ret_visivel = false
 
@@ -60,6 +64,9 @@ document.addEventListener('DOMContentLoaded', function () {
                 retirada.style.visibility = "hidden"
                 body.removeChild(escuridao);
                 ret_visivel=false
+            })
+            tirar.addEventListener('click', function(event) {
+                imageMode_R_t.src="Imagens/Circulo-vazio.png"
             })
         });
     });
