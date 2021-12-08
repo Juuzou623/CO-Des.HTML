@@ -451,6 +451,7 @@ div.coluna_piso1 div.linha{
     z-index: 10;
 }
 
+<<<<<<< HEAD
 .popup_legenda{
     top: 10%;
     left: 25%;
@@ -464,6 +465,8 @@ div.coluna_piso1 div.linha{
     background:rgb(255, 255, 255);
     visibility:hidden;
 }
+=======
+>>>>>>> 2e4c7ef761b32999b68ce958b349ede6ba9b713c
 #escuridao{
     position: fixed;
     top: 0rem;
