@@ -482,3 +482,8 @@ div.coluna_piso1 div.linha{
     margin: 0.1rem;
     justify-content: center;
 }
+
+#Data_go{
+    font-size: 0.8rem;
+    padding: 0rem;
+}
