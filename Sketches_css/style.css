@@ -474,3 +474,11 @@ div.coluna_piso1 div.linha{
     opacity: 0.5;
     z-index: 3;
 }
+
+.alinhamento_leg{
+    list-style: none;
+    padding-left: 0rem;
+    font-size: 1rem;
+    margin: 0.1rem;
+    justify-content: center;
+}
