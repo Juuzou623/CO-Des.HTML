@@ -134,6 +134,21 @@ img#voltar{
     height: 2rem;
     z-index: 1;
 }
+
+.voltar{
+    width: 2rem;
+    height: 2rem;
+    z-index: 1;
+}
+
+.voltar2{
+    position: absolute;
+    left: 25%;
+    width: 2rem;
+    height: 2rem;
+    z-index: 1;
+}
+
 .margem_inf{
     width: 100%;
     padding-bottom: 1rem;
