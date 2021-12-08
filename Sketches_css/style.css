@@ -160,6 +160,15 @@ img#voltar{
     z-index: 1;
 }
 
+.linha_fonte{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding-left: 0%;
+    font-size: 0.9rem;
+}
 ul.retirar{
     list-style: none;
     font-size: 30%;
@@ -183,7 +192,10 @@ div.linha img{
     width: 2rem;
     height: 2rem;
 }
-
+div.linha_fonte img{
+    width: 2rem;
+    height: 2rem;
+}
 /*@media (max-width: 500px) {
     div.popup p{
         font-size: 1rem;
@@ -275,11 +287,6 @@ img#hist{
 img.first{
     padding: 1rem;
     background-color: #FF7C1C;
-}
-
-img.second{
-    padding: 1rem;
-    background-color:#D30003;
 }
 
 .voltar_piso1{
