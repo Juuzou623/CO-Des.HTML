@@ -30,7 +30,17 @@ document.addEventListener('DOMContentLoaded', function () {
                 regis_visivel=false
             })
             enviar.addEventListener('click', function(event) {
-                imageMode_R_v.src="Imagens/circulo-preto-2.png"
+                c1=document.querySelector("#campo1").value
+                c2=document.querySelector("#campo2").value
+                c3=document.querySelector("#campo3").value
+
+                if ((c1 =="") || (c2=="") || (c3=="")){
+                    alert("Lacunas vazias! Por favor, complete-as para o veículo ser registrado");
+                }
+                else{
+                    imageMode_R_v.src="Imagens/circulo-preto-2.png"
+                }
+                
             })
         });
     });
