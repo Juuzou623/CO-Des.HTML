@@ -162,25 +162,25 @@
         <ul class="alinhamento">
         <!--Tarefas a fazer pelo usuário-->
         <li>
-            <input type="text" placeholder="Nome do motorista">
+            <input class="campo" type="text" placeholder="Nome do motorista">
         </li>
         <li>
-            <input type="text" placeholder="Placa do carro">
+            <input class="campo" type="text" placeholder="Placa do carro">
         </li>
         <li>
-            <input type="text" placeholder="Modelo do carro">
+            <input class="campo" type="text" placeholder="Modelo do carro">
         </li>
         <li>
-            <input type="text" placeholder="Piso">
+            <input class="campo" type="text" placeholder="Piso">
         </li>
         <li>
-            <input type="text" placeholder="Sessão">
+            <input class="campo" type="text" placeholder="Sessão">
         </li>
         <li>
-            <input type="text" placeholder="Nome da vaga">
+            <input class="campo" type="text" placeholder="Nome da vaga">
         </li>
         <li>
-            <button>Enviar todos os dados</button>
+            <button id="registrando">Enviar todos os dados</button>
         </li>
     </ul>
     <a href="Piso1.html">
@@ -224,4 +224,42 @@
         </div>
     </div>
 </div>
+
+<div class= "popup_legenda">
+<div class="fake_header">
+    <b>Legenda das vagas:</b>
+</div>
+<div class="fake_main">
+    <ul class="alinhamento">
+        <li>
+            <div class="linha">
+                <img class = "leg" src="Imagens/Circulo-vazio.png" alt="Vaga livre">
+                -Vaga vazia (Pode ser editada para adicionar um veículo)
+            </div>
+        </li>
+        <li>
+            <div class="linha">
+                <img class = "leg" src="Imagens/circulo-preto-2.png" alt="Vaga ocupada">
+                -Vaga ocupada
+            </div>
+        </li>
+        <li>
+            <div class="linha">
+                <img class = "leg" src="Imagens/circulo-hashurado.png" alt="Vaga agendada">
+                -Vaga agendada para ser usada
+            </div>
+        </li>
+        <li>
+            <div class="linha">
+                <img class = "leg" src="Imagens/triangle.png" alt="Vaga que será ocupada logo mais">
+                -Vaga que será ocupada logo mais
+            </div>
+        </li>
+    </ul>
+    <a href="Piso1.html">
+        <img src="Imagens/back.png" alt='Botão de voltar' id="voltar">
+    </a>
+</div>
+</div>
+
 </html>
